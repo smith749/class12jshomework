@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel='stylesheet' href='../pages/style.css'/>
+    <style type="text/css">
+    div.a{
+      width: 150px;
+      height: 80px;
+      font-size: 30px;
+      text-align: center;
+      font-family: Silkscreen;
+      color: #6997FF;
+      transform: rotate(0deg);
+      transition: transform 2s;
+      }
+    
+    div.a:hover{
+      
+        transform: rotate(45deg);
+      
+    }
+    
+    div.b{
+      
+      transform: skewX(0deg);
+      transition: transform 5s;
+    }
+    
+    div.b:active{
+      
+       transform: skewX(45deg);
+    }
+
+    h2 {
+      font-family: Silkscreen;
+      color: #5FE896;
+      text-align: center;
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100;
+      height: 100;
+      border-right: 2px solid #6997FF;
+      overflow: hidden;
+      animation: animate 6s linear infinite;
+      margin: 10px;
+    }
+    @keyframes animate 
+    {
+      0%,10%,100%
+      {
+        width: 0%;
+      }
+      70%,90%
+      {
+        width: 100%;
+      }
+}
+      
+
+  </style>
+  </head>
+
+  <body class="grid">
+
+    <header role="banner" class="grid-item">
+      <img alt="logo" class="logo" src="../picture/Logo.png">Header</a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/page2.html">Drawing</a></li>
+          <li><a href="../pages/page3.html">3D Animation</a></li>
+          <li><a href="../pages/page4.html">Homework From MEDP 28500</a></li>
+          <li><a href="../pages/page6.html">Homework From MEDP 26200</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main" class="grid-item">    
+    <h2>Welcome</h2>
+    <p>Current date and time:</p>
+
+<div id="date"></div>
+
+<div id="day"></div>
+<div id="calendar_image"></div>
+
+<button id="day_test_button">cycle</button>   
+      <h1>Who Am I?</h1>
+      <img src="../picture/myself.png" alt="me" height="300" width="300" align="left">
+      <p>My name is Antone Smith.</p>
+      <p>Born in New York, I major in Media Studies: Emeriging Media at Hunter College. I'm expected to graduate after fall 2022.</p>
+      <div class="subgrid">
+        <div class="subgrid-item">
+          <div class="panel">
+            <h3>Hobby 1</h3>
+            <p>One of the things I like to do is draw, however, I draw during my free time. I do regular drawing, cray-pas drawing, digital drawing, and motion graphics sometimes. Some examples of cray-pas drawing can be found on Page 2(Drawing) and motion graphics page 6 (Motion Graphics) of my website showing my classwork and projects.</p>
+             <img src="../picture/Gameproject.png" alt="Sky" width="300" height="300" align="center">
+      <p>Game Project</p>
+          </div>
+        </div>
+        <div class="subgrid-item">
+          <div class="panel">
+            <h3>Hobby 2</h3>
+            <p>My second hobby is photography. Just like drawing I sometimes do photography depending on my time and the weather. Here's an example of a picture I took. Other pictures I did is on Page 6 of “Outside Work I Did”</p>
+            <img src="../picture/DSC-0366.jpg" alt="WhiteFlower" width="300" height="300" align="center">
+      <p>White Flower</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <aside role="complementary" class="grid-item">
+      <h2>Aside</h2>
+      <p>There will be more work to come for this website. For now here's a final project I did from BMCC communication design class.</p>
+      <img src="../picture/final-project-animation.gif" alt="finalproject1" height="300" width="300" align="left">
+    </aside>
+
+    <footer role="contentinfo" class="grid-item">
+      <h3>Footer</h3>
+      <p>Created by Antone Smith 2022<sup>®</sup></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+
+  </body>
+</html>
+
+      </body>
+    </html>

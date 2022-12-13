@@ -1,0 +1,101 @@
+.header{
+
+    flex: 1 100%;
+    order: 1;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+}
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;
+ height: 750px;
+ width: 750;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+h1{
+    font-family: Monoton;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    background-color: purple;
+   }
+
+   ol{
+    font-family: Silkscreen;
+    font-size: 40px;
+   }
+
+   p{
+    font-family: Silkscreen;
+    color: #6997FF;
+   }
+
+   img {
+      width:750; 
+      height:750; 
+   }
+   body{
+     background-color: #C3DEC1;
+
+footer[role="contentinfo"] {
+      color: #ffffff;
+      background-color: #3b3b3b;
+    
+  
+
+   .column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.a {
+    text-align: left;
+}
+div.b {
+    text-align: right;
+}
+a {
+  font-family: Silkscreen;
+    color: #5FE896;  
+}
+
+   body{
+     background-color: #C3DEC1;
+  }

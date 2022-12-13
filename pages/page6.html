@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Page 6</title>
+  <link rel='stylesheet' href='flexbox3.css'/>
+  <style>
+  /* https://zellwk.com/blog/css-animations/
+    You create a CSS Animation by defining an animation in @keyframes.*/
+  
+    
+
+    /* The element to apply the animation to */
+    
+@keyframes moving{
+    0%   {left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+    
+.box3{
+  
+   position: relative;
+  
+  animation-name: moving;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+
+/* The element to apply the animation to */
+
+  </style>
+</head>
+<body>
+<div class='menu-container'>
+      <div class='menu'>
+        <div><header class="header"> <img alt="logo" class="logo" src="../picture/Logo.png" height="300px" width="300px"></header></div>
+        <div class='links'><a href="../index.html">Home</a></div>
+        <div class='links'><a href="../pages/page1.html">About</a></div>
+        <div class='links'><a href="../pages/page2.html">Drawing</a></div>
+        <div class='links'><a href="../pages/page3.html">3D Animation</a></div>
+        <div class='links'><a href="../pages/page4.html">Homework From MEDP 28500</a></div>
+      </div>
+    </div>
+<div class="box3"><img src="../picture/image3.png"></div>
+<main class="main">
+  <p>The projects/homework shown in this page is work from MEDP 26200: Motion Graphics. In that course I had to explored the theory and application of motion graphics that are created, processed, and then re-presented in time.</p>
+<div>
+  <div>
+     <video width="320" height="240" controls>
+    <source src="../picture/moviecredits.mp4">
+</video>
+<p style="display: block; text-align: center;">This video is Project 2: Movie Credits. For This project I created a movie opening for Tom and Jerry meet Sherlock Holmes.</p>
+    </div>
+     <div>
+   <video width="320" height="240" controls>
+    <source src="../picture/Project4-StationID.mp4">
+</video>
+<p style="display: block; text-align: center;">This is Project 4: Station ID. For this project I design a television logo and created a short animated video.</p>
+    </div>
+     <div>
+     <video width="320" height="240" controls>
+    <source src="../picture/Project5.mp4">
+</video>
+<p style="display: block; text-align: center;">This video is Project 5: TV Opening. For this project I had to created an opening from a TV show.</p>
+    </div>
+</div>
+</div>
+
+</main>
+<aside class="sidebar"> 
+ <p>Outside Work I Did</p>
+ <div>
+  <img src="../picture/DSC-0290.JPG" alt="birdnest" width="300" height="300" align="center">
+  <p>Bird Nest</p>
+</div>
+<div>
+  <img src="../picture/DSC-0249.JPG" alt="tinyplantball" width="300" height="300" align="center">
+  <p>Plants with Tiny Balls</p>
+</div>
+<div>
+  <img src="../picture/DSC-0281.JPG" alt="redflower" width="300" height="300" align="center">
+  <p>Red Flower</p>
+</div>
+<div>
+  <img src="../picture/DSC-0069.JPG" alt="oceanview" width="300" height="300" align="center">
+  <p>Ocean View</p>
+</div>
+</aside>
+<div class='footer'>
+  <div class='footer-item footer-one'></div>
+  <div class='footer-item footer-two'></div>
+  <div class='footer-item footer-three'></div>
+</div>
+
+
+  
+</body>
+</html>
+ 
+</html>

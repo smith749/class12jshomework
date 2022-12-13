@@ -1,0 +1,33 @@
+ h1{
+      font-family: Monoton;
+      color: white;
+      font-size: 75px;
+      text-align: center;
+      background-color: purple;
+   }
+
+   ol{
+    font-family: Silkscreen;
+    font-size: 40px;
+   }
+
+   p{
+    font-family: Silkscreen;
+    color: #6997FF;
+   }
+
+   img {
+      width: 400; 
+      height:400; 
+   }
+   body{
+     background-color: #C3DEC1;
+
+footer[role="contentinfo"] {
+      color: #ffffff;
+      background-color: #3b3b3b;
+    }
+
+    footer h2 {
+      color: #ffffff;
+    }

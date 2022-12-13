@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  color: #5FC2E8;
+  background-color: #6997FF;
+  padding: 20px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+}
+
+.links{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login{
+  margin-left: 20px;
+}
+
+.header-container {
+  color: #6997FF;
+  background-color: #5FC2E8;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.photo-grid-container {
+  width:  90%;
+  height:  90%;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.photo-grid {
+  width: 900px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  object-fit: cover;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+
+
+
+}
+
+.logo {
+  
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+.first-item {
+  order: 1;
+
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+
+
+}
+
+.second-item {
+  
+
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+
+
+}
+
+.last-item {
+  order: -1;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #6997FF;
+  height: 200px;
+  flex: 1;
+}
+.footer-one,
+.footer-three {
+  background-color: #5FC2E8;
+}
+.footer-two {
+  flex: 3;
+}
+h1{
+      font-family: Monoton;
+      color: white;
+      font-size: 75px;
+      text-align: center;
+      background-color: purple;
+   }
+   h2{
+      font-family: Silkscreen;
+      color: #6997FF;
+      text-align: center;
+      background-color: purple;
+   }
+   ol{
+    font-family: Silkscreen;
+    font-size: 40px;
+   }
+
+   p{
+    font-family: Silkscreen;
+    color: #6997FF;
+   }
+
+     p{
+    font-family: Silkscreen;
+    color: #6997FF;
+   }
+  
+
+   .column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+   img {
+      width: 300; 
+      height:300; 
+  }
+div.a {
+    text-align: left;
+}
+div.b {
+    text-align: right;
+}
+a {
+  font-family: Silkscreen;
+    color: #6997FF;  
+}
+
+   body{
+     background-color: #C3DEC1;
+  }

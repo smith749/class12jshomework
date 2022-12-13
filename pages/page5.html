@@ -1,0 +1,87 @@
+<html>
+  <head>
+   <meta charset="utf-8">
+   <link rel='stylesheet' href='../pages/style.css'/>
+    <link rel="stylesheet"href='flexbox4.css'/>
+</head>
+<body>
+
+<h1>Slideshow Homework</h1>
+ <nav>
+        <ul>
+          <ol><a href="../index.html">Home</a></ol>
+          <ol><a href="../pages/page4.html">Button Homework</a></ol>
+        </ul>
+ </nav>
+<p style="display: block; text-align: center;">For this assignment I had to create an automated photo essay. Possible topics selection was Summer in the City, Subway Infrastructure, NYC Street Food or find my own subject. I decided to do a plant themed photo essay so I went explore areas taking pictures of plants.</p>
+<main class="main">
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="images/image001.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image002.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image003.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image004.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image005.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image006.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image007.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image008.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image009.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/image010.jpg">
+  </div>
+</div>
+</main>
+<div class='footer'>
+  <div class='footer-item footer-one'></div>
+  <div class='footer-item footer-two'></div>
+  <div class='footer-item footer-three'></div>
+</div>
+
+
+<script>
+// create variable to index the slides - to track
+var slideIndex = 0;
+// call a function that does something with the slides
+showSlides();
+
+function showSlides() {
+    // a variable to be used with the for loop
+    var i;
+    // target the slides in the DOM as slides
+    var slides = document.getElementsByClassName("mySlides");
+    // loop through the slides showing them one at a time (display)
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    // increment the slides from 0 to the total number of slides (for loop)
+    slideIndex++;
+    // loop back to the beginning
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+
+   
+
+</body>
+</html>
